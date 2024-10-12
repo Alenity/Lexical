@@ -1,0 +1,2 @@
+# Lexical
+Decentralized royalties
