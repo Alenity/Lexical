@@ -1,0 +1,21 @@
+{
+  "version": "0.0.0",
+  "name": "deal",
+  "type": "module",
+  "exports": "./dist/index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "buffer": "6.0.3",
+    "@stellar/stellar-sdk": "12.1.0"
+  },
+  "devDependencies": {
+    "typescript": "5.3.3"
+  },
+  "description": "JS library for interacting with [Soroban](https://soroban.stellar.org/) smart contract `deal` via Soroban RPC.",
+  "main": "index.js",
+  "author": "Alenity",
+  "license": "MIT"
+}
