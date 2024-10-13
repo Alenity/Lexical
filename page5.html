@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    body {
+        background-color: #0d0d0d;
+        color: #fff;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+    
+    .header {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .header h1 {
+        color: #fff;
+        font-weight: normal;
+    }
+   
+    .content {
+        display: flex;
+        gap: 20px;
+    }
+    .box{
+        width:200px;
+        height: 100px;
+        height: 100px;
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 8px;
+        box-shadow: white;
+        text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    
+    text-align: center;
+    }
+    
+    .store-card, .add-new-store {
+        width: 300px;
+        height: 200px;
+        border: 1px solid #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    
+    .store-card {
+        background: linear-gradient(145deg, #0a0a0a, #1a1a1a);
+        color: #ffae42; /* Orange text color for store name */
+    }
+    
+    .store-info {
+        font-size: 18px;
+        text-align: center;
+    }
+    
+    .time-ago {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        font-size: 12px;
+        color: #ccc;
+    }
+    
+    .review-button {
+        background-color: transparent;
+        border: 1px solid #fff;
+        color: #fff;
+        padding: 10px 20px;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+    
+    .review-button:hover {
+        background-color: #ffae42;
+        color: #0d0d0d;
+    }
+    
+    .add-new-store {
+        background-color: #1a1a1a;
+        border: 1px solid #666;
+        cursor: pointer;
+    }
+    
+    .add-icon {
+        font-size: 48px;
+        color: #666;
+    }
+    
+</style>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>ADD STORE</h1>
+        </div>
+        <div class="content">
+            <div class="store-card">
+                <div class="store-info">
+                    <span class="store-name">Waterstones</span> is waiting for approval
+                </div>
+                <div class="time-ago">2h</div>
+                <a href="page6.html" class="button">
+                <button class="review-button">REVIEW</button>
+            </a>
+            </div>
+            <div class="add-new-store">
+                <div class="add-icon">+</div>
+            </div>
+        </div>
+        <div class="box">
+           
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
